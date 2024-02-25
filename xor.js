@@ -22,7 +22,7 @@ const targets = tf.tensor2d([
 
 // Definir o modelo
 const model = tf.sequential();
-model.add(tf.layers.dense({ units: 8, inputShape: [2], activation: 'sigmoid' }));
+model.add(tf.layers.dense({ units: 3, inputShape: [2], activation: 'sigmoid' }));
 model.add(tf.layers.dense({ units: 1, activation: 'sigmoid' }));
 
 // Compilar o modelo
