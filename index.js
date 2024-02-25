@@ -1,4 +1,3 @@
-
 import tf from '@tensorflow/tfjs-node';
 import termkit from 'terminal-kit';
 
