@@ -11,6 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "@tensorflow/tfjs-node": "^4.17.0",
+    "jpeg-js": "^0.4.4",
+    "js": "^0.1.0",
+    "mnist": "^1.1.0",
     "terminal-kit": "^3.0.2"
   }
 }
